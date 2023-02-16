@@ -5,11 +5,6 @@ html {
 
 body {
     background-color: hsl(212, 45%, 89%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
 }
 
 h1 {
@@ -32,10 +27,17 @@ img {
     border-radius: 8%;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
 .card {
     background-color: hsl(0, 0%, 100%);
     width: 310px;
-    border-radius: 0.5cm;
+    border-radius: 10px;
 }
 
 .text {
@@ -45,8 +47,7 @@ img {
 }
 
 .attribution { 
-    font-size: 0.7rem; 
-    text-align: center; 
+    font-size: 0.7rem;
 }
 
 .attribution a { 
