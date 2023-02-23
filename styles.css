@@ -41,7 +41,8 @@ main {
 
 img {
     max-width: 100%;
-    opacity: 0.4;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
     border-radius: 10px 10px 0 0;
 }
 
@@ -91,7 +92,7 @@ p {
 
 @media (min-width: 1000px){
     .image-container {
-        width: 500px;
+        width: 479px;
         height: 396px;
         display: flex;
         order: 5;
@@ -130,8 +131,5 @@ p {
         display: flex;
         flex-direction: row;
     }
-
-
-
 }
 
