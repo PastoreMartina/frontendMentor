@@ -1,6 +1,11 @@
 html {
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
 }
 
 body {
@@ -22,7 +27,7 @@ p {
 }
 
 img {
-    width: 280px;
+    max-width: 100%;
     padding: 15px;
     border-radius: 8%;
 }
@@ -51,9 +56,9 @@ main {
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(213, 86%, 56%); 
 }
 
 a:hover { 
-    color: hsl(228, 82%, 15%); 
+    color: hsl(218, 44%, 22%); 
 }
