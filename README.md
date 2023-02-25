@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://your-live-site-url.com](https://pastoremartina.github.io/StatsCardChallenge/)
+- Live Site URL: [https://pastoremartina.github.io/StatsCardChallenge/](https://pastoremartina.github.io/StatsCardChallenge/)
 
 ## My process
 
