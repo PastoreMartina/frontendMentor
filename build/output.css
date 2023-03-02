@@ -525,11 +525,6 @@ p, button {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-orange{
-  --tw-bg-opacity: 1;
-  background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
-}
-
 .bg-cyan{
   --tw-bg-opacity: 1;
   background-color: hsl(184 100% 22% / var(--tw-bg-opacity));
@@ -540,6 +535,34 @@ p, button {
   background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
 }
 
+.bg-orange{
+  --tw-bg-opacity: 1;
+  background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  background-color: hsl (0, 0%, 100%);
+}
+
 .uppercase{
   text-transform: uppercase;
+}
+
+.text-cyan{
+  --tw-text-opacity: 1;
+  color: hsl(184 100% 22% / var(--tw-text-opacity));
+}
+
+.text-dark-cyan{
+  --tw-text-opacity: 1;
+  color: hsl(179 100% 13% / var(--tw-text-opacity));
+}
+
+.text-orange{
+  --tw-text-opacity: 1;
+  color: hsl(31 77% 52% / var(--tw-text-opacity));
+}
+
+.text-tr-white{
+  color: hsla(0, 0%, 100%, 0.75);
 }
