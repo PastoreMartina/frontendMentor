@@ -671,18 +671,9 @@ p, button {
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
-.hover\:border-2:hover{
-  border-width: 2px;
-}
-
-.hover\:border-white:hover{
-  --tw-border-opacity: 1;
-  border-color: hsl(0 0% 100% / var(--tw-border-opacity));
-}
-
-.hover\:bg-orange:hover{
+.hover\:bg-cyan:hover{
   --tw-bg-opacity: 1;
-  background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
+  background-color: hsl(184 100% 22% / var(--tw-bg-opacity));
 }
 
 .hover\:bg-dark-cyan:hover{
@@ -690,14 +681,19 @@ p, button {
   background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
 }
 
-.hover\:bg-cyan:hover{
+.hover\:bg-orange:hover{
   --tw-bg-opacity: 1;
-  background-color: hsl(184 100% 22% / var(--tw-bg-opacity));
+  background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
 }
 
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+.hover\:text-orange:hover{
+  --tw-text-opacity: 1;
+  color: hsl(31 77% 52% / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
