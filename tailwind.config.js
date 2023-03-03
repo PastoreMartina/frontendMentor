@@ -10,6 +10,10 @@ module.exports = {
       'white' : 'hsl(0, 0%, 100%)',
       'gray' : 'hsl(0, 0%, 95%)',
     },
+    fontSize: {
+      base: '0.938rem',
+      xl: '2.3rem',
+    },
     extend: {
     },
   },
