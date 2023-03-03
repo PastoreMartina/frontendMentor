@@ -8,6 +8,7 @@ module.exports = {
       'dark-cyan' : 'hsl(179, 100%, 13%)',
       'tr-white' : 'hsla(0, 0%, 100%, 0.75)',
       'white' : 'hsl(0, 0%, 100%)',
+      'gray' : 'hsl(0, 0%, 95%)',
     },
     extend: {
     },

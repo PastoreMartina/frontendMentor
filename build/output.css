@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
 /*
 ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
@@ -535,6 +535,11 @@ p, button {
   background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
 }
 
+.bg-gray{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 95% / var(--tw-bg-opacity));
+}
+
 .bg-orange{
   --tw-bg-opacity: 1;
   background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
@@ -545,8 +550,21 @@ p, button {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
 .uppercase{
   text-transform: uppercase;
+}
+
+.tracking-wide{
+  letter-spacing: 0.025em;
 }
 
 .text-cyan{
@@ -566,4 +584,9 @@ p, button {
 
 .text-tr-white{
   color: hsla(0, 0%, 100%, 0.75);
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
