@@ -525,20 +525,36 @@ p, button {
   --tw-backdrop-sepia:  ;
 }
 
+.bottom-0{
+  bottom: 0px;
+}
+
+.flex{
+  display: flex;
+}
+
 .grid{
   display: grid;
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.h-screen{
+  height: 100vh;
 }
 
-.grid-rows-2{
-  grid-template-rows: repeat(2, minmax(0, 1fr));
+.w-3\/5{
+  width: 60%;
 }
 
-.place-content-center{
-  place-content: center;
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .rounded-full{
@@ -570,22 +586,12 @@ p, button {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
+.p-10{
+  padding: 2.5rem;
+}
+
 .p-3{
   padding: 0.75rem;
-}
-
-.p-2{
-  padding: 0.5rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-7{
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
 }
 
 .px-8{
@@ -595,6 +601,10 @@ p, button {
 
 .text-base{
   font-size: 0.938rem;
+}
+
+.text-sm{
+  font-size: 0.63rem;
 }
 
 .text-xl{
@@ -627,4 +637,14 @@ p, button {
 .text-white{
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .md\:fixed{
+    position: fixed;
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }

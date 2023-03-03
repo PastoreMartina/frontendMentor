@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
   
   <title>Frontend Mentor | 3-column preview card component</title>
 
   <link rel="stylesheet" href="output.css">
 </head>
-<body class="bg-gray">
-  <main class="text-tr-white grid grid-cols-3">
-    <article class="bg-orange">
+<body class="bg-gray h-screen flex flex-col items-center justify-center">
+  <main class="text-tr-white grid md:grid-cols-3 w-3/5">
+    <article class="bg-orange p-10">
       <h1 class="uppercase text-xl text-white">Sedans</h1>
       <p class="text-base">
         Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
@@ -20,7 +20,7 @@
       </p>
       <button class="text-orange bg-white rounded-full p-3 px-8">Learn More</button>
     </article>
-    <article class="bg-cyan">
+    <article class="bg-cyan p-10">
       <h1 class="uppercase text-xl text-white">SUVs</h1>
       <p class="text-base">
         Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
@@ -28,7 +28,7 @@
       </p>
       <button class="bg-white text-cyan rounded-full p-3 px-8">Learn More</button>
     </article>
-    <article class="bg-dark-cyan">
+    <article class="bg-dark-cyan p-10">
       <h1 class="uppercase text-xl text-white">Luxury</h1>
       <p class="text-base">
         Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
@@ -37,8 +37,8 @@
       <button class="bg-white text-dark-cyan rounded-full p-3 px-8">Learn More</button>
     </article>
   </main>
-  <footer>
-    <p>
+  <footer class="md:fixed bottom-0">
+    <p class="text-sm">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/PastoreMartina" target="_blank">Martina Pastore</a>.
     </p>
