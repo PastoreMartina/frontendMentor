@@ -545,6 +545,10 @@ p, button {
   width: 60%;
 }
 
+.grid-rows-3{
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -646,5 +650,9 @@ p, button {
 
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:justify-center{
+    justify-content: center;
   }
 }
