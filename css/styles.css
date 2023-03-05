@@ -1,0 +1,64 @@
+html {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    padding: 15px;
+    border-radius: 8%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 310px;
+    border-radius: 10px;
+}
+
+.text {
+    font-family: 'Outfit', sans-serif;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.attribution { 
+    font-size: 0.7rem;
+}
+
+.attribution a { 
+    color: hsl(213, 86%, 56%); 
+}
+
+a:hover { 
+    color: hsl(218, 44%, 22%); 
+}
